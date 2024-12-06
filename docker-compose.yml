@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres
+    container_name: medusa-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: medusa
+    volumes:
+      - medusa-data:/var/lib/postgresql/data
+
+volumes:
+  medusa-data:
