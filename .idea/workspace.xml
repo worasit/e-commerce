@@ -5,16 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf9365c6-f779-4315-bcef-233049206ffe" name="Changes" comment="Added gitignore">
+      <change afterPath="$PROJECT_DIR$/nongped/src/api/blog/posts/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nongped/src/modules/blog/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nongped/src/modules/blog/models/post.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nongped/src/modules/blog/service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nongped/src/workflows/create-post.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nongped/.medusa/types/remote-query-entry-points.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nongped/.medusa/types/remote-query-entry-points.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nongped/medusa-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nongped/medusa-config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -29,13 +48,16 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "main",
     "ignore_missing_gitignore": "true",
-    "last_opened_file_path": "/Users/worasitdaimongkol/Repositories/Learning/e-commerce",
+    "js.last.introduce.type": "CONST",
+    "last_opened_file_path": "/Users/worasitdaimongkol/Repositories/Learning/e-commerce/docs/img",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "npm.dev.executor": "Debug",
+    "npm.seed.executor": "Run",
+    "npm.start.executor": "Debug",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "/Users/worasitdaimongkol/Repositories/Learning/e-commerce/nongped/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
@@ -46,12 +68,33 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/nongped/src/modules/blog" />
+      <recent name="$PROJECT_DIR$/nongped/src/modules" />
+      <recent name="$PROJECT_DIR$/docs/img" />
+      <recent name="$PROJECT_DIR$/docs/medusa-component" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.dev">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/nongped/package.json" />
       <command value="run" />
       <scripts>
         <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="seed" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/nongped/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="seed" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -70,10 +113,12 @@
     <list>
       <item itemvalue="npm.start" />
       <item itemvalue="npm.dev" />
+      <item itemvalue="npm.seed" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.seed" />
       </list>
     </recent_temporary>
   </component>
@@ -94,7 +139,7 @@
       <updated>1733466353809</updated>
       <workItem from="1733466355039" duration="1497000" />
       <workItem from="1733471633974" duration="126000" />
-      <workItem from="1733471767201" duration="1999000" />
+      <workItem from="1733471767201" duration="11694000" />
     </task>
     <task id="LOCAL-00001" summary="Added gitignore">
       <option name="closed" value="true" />
@@ -104,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733466559980</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added gitignore">
+      <option name="closed" value="true" />
+      <created>1733473811010</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733473811010</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,5 +166,65 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added gitignore" />
     <option name="LAST_COMMIT_MESSAGE" value="Added gitignore" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/nongped/src/scripts/seed.ts</url>
+          <line>844</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/nongped/src/api/hello-world/route.ts</url>
+          <line>3</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/nongped/src/api/hello-world/route.ts</url>
+          <line>4</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/nongped/src/api/blog/posts/route.ts</url>
+          <line>4</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/nongped/src/api/blog/posts/route.ts</url>
+          <line>12</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/nongped/src/workflows/create-post.ts</url>
+          <line>10</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/nongped/src/workflows/create-post.ts</url>
+          <line>14</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/nongped/src/workflows/create-post.ts</url>
+          <line>12</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/nongped/src/workflows/create-post.ts</url>
+          <line>15</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
